@@ -1,10 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace TrabajoIntegrador.Models
+﻿namespace TechServicesApp.Models.DTOs
 {
-    public class Proyecto
+    public class ProyectoDTO
     {
-        [Key]
         public int CodProyecto { get; set; }
         public string Nombre { get; set; }
         public string Direccion { get; set; }
